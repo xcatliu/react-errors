@@ -7,7 +7,7 @@
     "clean": "rimraf lib",
     "build:lib": "babel src --out-dir lib",
     "build": "npm run build:lib",
-    "build:gh-pages": "./bin/build-gh-pages.sh",
+    "deploy:gh-pages": "./bin/deploy-gh-pages.sh",
     "prepublish": "npm run clean && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

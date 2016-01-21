@@ -2,6 +2,10 @@
 
 > Show errors on the top-right
 
+## Demo
+
+http://xcatliu.com/react-errors/
+
 ## Usage
 
 **Warning: This component will render exactly what messages in `errors`, so you should change `errors` when `onErrorClose` is triggered.**
@@ -33,4 +37,5 @@ npm publish
 ### Deploy Examples
 
 ```shell
+npm run deploy:gh-pages
 ```
