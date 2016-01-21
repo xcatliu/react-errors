@@ -19792,8 +19792,7 @@
 	    top: 0,
 	    right: 0,
 	    zIndex: 999999999,
-	    fontFamily: '微软雅黑, "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif',
-	    boxSizing: 'border-box'
+	    fontFamily: '微软雅黑, "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif'
 	  },
 	  errorContainer: {
 	    margin: 15,
@@ -19805,7 +19804,8 @@
 	    // borderRadius: 4,
 	    // Like bootstrap .popover class
 	    // http://getbootstrap.com/javascript/#live-demo-1
-	    boxShadow: '0 5px 10px rgba(0, 0, 0, .2)'
+	    boxShadow: '0 5px 10px rgba(0, 0, 0, .2)',
+	    boxSizing: 'border-box'
 	  },
 	  errorP: {
 	    marginTop: 0,
