@@ -1,0 +1,27 @@
+{
+  "name": "react-errors",
+  "version": "0.0.0",
+  "description": "Show errors on the top-right",
+  "main": "lib/index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xcatliu/react-errors.git"
+  },
+  "keywords": [
+    "react",
+    "react-errors",
+    "alert",
+    "react-alert"
+  ],
+  "author": "xcatliu <xcatliu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xcatliu/react-errors/issues"
+  },
+  "homepage": "https://github.com/xcatliu/react-errors#readme"
+}
