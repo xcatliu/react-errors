@@ -19,7 +19,7 @@ const styles = {
     // http://v4-alpha.getbootstrap.com/components/utilities/#contextual-colors-and-backgrounds
     backgroundColor: '#d9534f',
     color: 'white',
-    borderRadius: 4,
+    // borderRadius: 4,
     // Like bootstrap .popover class
     // http://getbootstrap.com/javascript/#live-demo-1
     boxShadow: '0 5px 10px rgba(0, 0, 0, .2)',
