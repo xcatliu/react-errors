@@ -3,9 +3,11 @@
   "version": "0.0.0",
   "description": "Show errors on the top-right",
   "main": "lib/index.js",
-  "dependencies": {},
-  "devDependencies": {},
   "scripts": {
+    "clean": "rimraf lib",
+    "build:lib": "babel src --out-dir lib",
+    "build": "npm run build:lib",
+    "prepublish": "npm run clean && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +25,17 @@
   "bugs": {
     "url": "https://github.com/xcatliu/react-errors/issues"
   },
-  "homepage": "https://github.com/xcatliu/react-errors#readme"
+  "homepage": "https://github.com/xcatliu/react-errors#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-cli": "^6.4.5",
+    "babel-core": "^6.4.5",
+    "babel-eslint": "^5.0.0-beta6",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^3.1.0",
+    "eslint-plugin-react": "^3.15.0"
+  }
 }

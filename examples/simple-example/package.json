@@ -1,0 +1,33 @@
+{
+  "name": "react-errors-simple-example",
+  "version": "0.0.0",
+  "description": "Simple Example | React Errors",
+  "main": "entry.js",
+  "scripts": {
+    "build": "npm run install-react-errors && webpack entry.js bundle.js",
+    "start": "npm run install-react-errors && webpack-dev-server --host=0.0.0.0",
+    "install-react-errors": "npm install ../..",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xcatliu/react-errors.git"
+  },
+  "author": "xcatliu <xcatliu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xcatliu/react-errors/issues"
+  },
+  "homepage": "https://github.com/xcatliu/react-errors#readme",
+  "dependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
