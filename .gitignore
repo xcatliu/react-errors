@@ -5,3 +5,5 @@ node_modules
 lib
 examples/**/bundle.js*
 
+react-errors
+

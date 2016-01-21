@@ -12,3 +12,5 @@ mv ../examples/* ./
 git add :
 git commit -m 'Update gh-pages'
 git push origin gh-pages
+
+rm -rf react-errors
