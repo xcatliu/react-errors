@@ -13,7 +13,7 @@ http://xcatliu.com/react-errors/
 ### Props
 
 Props | Description | Required | Default
-===== | =========== | ======== | =======
+----- | ----------- | -------- | -------
 `errors` | array of error, each error should be a instance of `Error` or an object which contains `message` | Y |
 `onErrorClose` | trigger when the close button is clicked, with a param which is the index of errors | Y |
 
@@ -32,6 +32,12 @@ npm version <patch|minor|major>
 git push
 git push --tags
 npm publish
+```
+
+### Build Examples
+
+```shell
+npm run build:examples
 ```
 
 ### Deploy Examples

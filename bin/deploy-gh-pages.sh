@@ -1,9 +1,11 @@
 #!/bin/bash
 set -e
 
-git checkout gh-pages
-git pull origin gh-pages
+rm -rf react-errors
+git clone git@github.com:xcatliu/react-errors.git react-errors
+cd react-errors
 
+git checkout gh-pages
 git checkout master examples
 
 # http://askubuntu.com/questions/269775/mv-directory-not-empty
@@ -14,4 +16,5 @@ git add :
 git commit -m 'Update gh-pages'
 git push origin gh-pages
 
-git checkout master
+cd ..
+rm -rf react-errors

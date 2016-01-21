@@ -7,6 +7,7 @@
     "clean": "rimraf lib",
     "build:lib": "babel src --out-dir lib",
     "build": "npm run build:lib",
+    "build:examples": "./bin/build-examples.sh",
     "deploy:gh-pages": "./bin/deploy-gh-pages.sh",
     "prepublish": "npm run clean && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,7 +20,8 @@
     "react",
     "react-errors",
     "alert",
-    "react-alert"
+    "react-alert",
+    "react-component"
   ],
   "author": "xcatliu <xcatliu@gmail.com>",
   "license": "MIT",
