@@ -11,6 +11,7 @@ const styles = {
     right: 0,
     zIndex: 999999999,
     fontFamily: '微软雅黑, "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif',
+    boxSizing: 'border-box',
   },
   errorContainer: {
     margin: 15,
