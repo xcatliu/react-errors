@@ -8,7 +8,7 @@ git clone git@github.com:xcatliu/react-errors.git react-errors
 cd react-errors
 git checkout gh-pages
 
-mv ../examples/* ./
+cp -r ../examples/* ./
 git add :
 git commit -m 'Update gh-pages'
 git push origin gh-pages
