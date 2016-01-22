@@ -19818,7 +19818,9 @@
 	    fontWeight: 'bold',
 	    lineHeight: 1,
 	    cursor: 'pointer',
-	    marginTop: -3
+	    marginTop: -3,
+	    marginBottom: 5,
+	    marginLeft: 5
 	  }
 	};
 	
