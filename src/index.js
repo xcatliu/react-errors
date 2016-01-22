@@ -6,6 +6,7 @@ const styles = {
   errorsContainer: {
     textAlign: 'left',
     fontSize: '14px',
+    lineHeight: '21px',
     position: 'fixed',
     top: 0,
     right: 0,
@@ -36,9 +37,7 @@ const styles = {
     fontWeight: 'bold',
     lineHeight: 1,
     cursor: 'pointer',
-    marginTop: -3,
-    marginBottom: 5,
-    marginLeft: 5,
+    marginLeft: 8,
   },
 };
 
