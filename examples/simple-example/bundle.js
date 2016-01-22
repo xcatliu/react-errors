@@ -19728,7 +19728,7 @@
 	  }, {
 	    key: 'handleAddAnError',
 	    value: function handleAddAnError() {
-	      var newError = new Error('new Error' + Date());
+	      var newError = new Error('new Error: ' + Date());
 	      var newErrors = this.state.errors.slice();
 	      newErrors.push(newError);
 	      this.setState({ errors: newErrors });
