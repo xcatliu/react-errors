@@ -19711,7 +19711,7 @@
 	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(App).call(this));
 	
 	    _this.state = {
-	      errors: [{ message: 'A object contains message' }, new Error('An Error Instance')]
+	      errors: [{ message: 'A object contains message' }, new Error('An Error Instance'), { message: '出错啦' }, new Error('一个中文的错误示例，网络请求失败，请重试，滴滴滴')]
 	    };
 	    _this.handleErrorClose = _this.handleErrorClose.bind(_this);
 	    _this.handleAddAnError = _this.handleAddAnError.bind(_this);
