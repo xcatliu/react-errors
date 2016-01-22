@@ -30,7 +30,7 @@ class App extends Component {
     this.setState({ errors: newErrors });
   }
   handleAddAnError() {
-    const newError = new Error('new Error' + Date());
+    const newError = new Error('new Error: ' + Date());
     const newErrors = this.state.errors.slice();
     newErrors.push(newError);
     this.setState({ errors: newErrors });
