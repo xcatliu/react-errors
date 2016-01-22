@@ -17,6 +17,8 @@ class App extends Component {
       errors: [
         { message: 'A object contains message' },
         new Error('An Error Instance'),
+        { message: '出错啦' },
+        new Error('一个中文的错误示例，网络请求失败，请重试，滴滴滴'),
       ],
     };
     this.handleErrorClose = this.handleErrorClose.bind(this);
