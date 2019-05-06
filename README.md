@@ -1,5 +1,7 @@
 # React Errors
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/xcatliu/react-errors.svg)](https://greenkeeper.io/)
+
 > Show errors on the top-right
 
 ## Demo
